@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.photo-section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f7f7f7; /* Adjust as per your design */
+}
+
+.photo-section img {
+  max-width: 55%;
+  max-height: 100%;
+}
+
+.form-section {
+  width: 40%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.form-section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.form-section p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-section form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-section form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-section .form-actions {
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  margin-bottom: 20px;
+  
+}
+
+.form-section button {
+  padding: 10px 20px;
+  background-color: #001B79;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-section button:hover {
+  background-color: #333333;
+}
+
+.form-actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.headerLoginSection{
+  font-weight: 900 ;
+  font-size: 48px;
+}
+
+
+

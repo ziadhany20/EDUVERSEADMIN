@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.table-container {
+  padding: 50px ;
+  font-family: Arial, sans-serif;
+  background-color: white ;
+  margin: 50px 50px 0px 250px ;
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+  
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-weight: bold ;
+}
+
+.user-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 12px;
+  color: white;
+  font-size: 12px;
+}
+
+.status.active {
+  background-color: green;
+}
+
+.status.onboarding {
+  background-color: blue;
+}
+
+.status.awaiting {
+  background-color: orange;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+.name{
+  font-size:32px;
+  font-weight: 600 ;
+  padding-bottom: 15px ;
+}
+
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #001B79;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+  margin-bottom: 20px ;
+  
+}
+
+.action-button:hover {
+  background-color: #000000;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  background-color: #17a2b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-button:hover {
+  background-color: #138496;
+}
+
